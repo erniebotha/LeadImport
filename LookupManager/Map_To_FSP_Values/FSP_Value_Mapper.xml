@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+	<mapping>
+		<property>IdType</property>
+		<lookup>
+			<from>ID</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>PASSPORT</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>Gender</property>
+		<lookup>
+			<from>Male</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Female</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>MaritalStatusCd</property>
+		<lookup>
+			<from>Single</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Married</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Divorced</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Separated</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Widowed</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Cohabiting/partnered</from>
+			<to>6</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>OccupationCategory</property>
+		<lookup>
+			<from>Category1</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Category2</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>Title</property>
+		<lookup>
+			<from>Mr</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Mrs</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>InsurerCancelled</property>
+		<lookup>
+			<from>Yes</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>No</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>HasConsent</property>
+		<lookup>
+			<from>Yes</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>No</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>DriversLicenseType</property>
+		<lookup>
+			<from>Full</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Provisional</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>DriversLicenseCategory</property>
+		<lookup>
+			<from>CategoryA</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>CategoryB</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<mapping>
+			<property>ResidentialAreaType</property>
+			<lookup>
+				<from>01. Residential Suburb</from>
+				<to>1</to>
+			</lookup>
+			<lookup>
+				<from>10. Enclosed access controlled area</from>
+				<to>10</to>
+			</lookup>
+			<lookup>
+				<from>11. Residential area (not enclosed)</from>
+				<to>11</to>
+			</lookup>
+			<lookup>
+				<from>12. Business Park/Centre/Business Hub/Hotel/Hospital</from>
+				<to>12</to>
+			</lookup>
+			<lookup>
+				<from>13. Military Base</from>
+				<to>13</to>
+			</lookup>
+			<lookup>
+				<from>14. Mining Facility</from>
+				<to>14</to>
+			</lookup>
+			<lookup>
+				<from>02. Industrial Area</from>
+				<to>2</to>
+			</lookup>
+			<lookup>
+				<from>03. Housing Estate</from>
+				<to>3</to>
+			</lookup>
+			<lookup>
+				<from>04. Caravan Park</from>
+				<to>4</to>
+			</lookup>
+			<lookup>
+				<from>05. Smallholding/Plot/Farm</from>
+				<to>5</to>
+			</lookup>
+			<lookup>
+				<from>06. Isolated Area or New Suburb/Development</from>
+				<to>6</to>
+			</lookup>
+			<lookup>
+				<from>07. Adjoining Township/Area with Squatter Element</from>
+				<to>7</to>
+			</lookup>
+			<lookup>
+				<from>08. Security Village</from>
+				<to>8</to>
+			</lookup>
+			<lookup>
+				<from>09. Retirement Complex</from>
+				<to>9</to>
+			</lookup>
+		</mapping>
+	</mapping>
+	<mapping>
+		<property>VehicleRestrictions</property>
+		<lookup>
+			<from>None</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Restricted</from>
+			<to>1</to>
+		</lookup>
+	</mapping>
+
+</mappings>

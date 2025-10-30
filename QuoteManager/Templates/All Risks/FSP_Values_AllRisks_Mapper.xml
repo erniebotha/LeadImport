@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+<mapping>
+	<property>cover.type.id</property>
+	<lookup>
+		<from>Unspecified All Risks (Wearing Apparel)</from>
+		<to>000</to>
+	</lookup>
+	<lookup>
+		<from>FURS / LEATHER JACKET</from>
+		<to>010</to>
+	</lookup>
+	<lookup>
+		<from>Jewellery</from>
+		<to>020</to>
+	</lookup>
+	<lookup>
+		<from>Musical instruments</from>
+		<to>030</to>
+	</lookup>
+	<lookup>
+		<from>Photographic equipment</from>
+		<to>040</to>
+	</lookup>
+	<lookup>
+		<from>Stamp and coin collection</from>
+		<to>050</to>
+	</lookup>
+	<lookup>
+		<from>Firearms</from>
+		<to>060</to>
+	</lookup>
+	<lookup>
+		<from>Spectacles</from>
+		<to>070</to>
+	</lookup>
+	<lookup>
+		<from>Car Phone</from>
+		<to>095</to>
+	</lookup>
+	<lookup>
+		<from>Automatic pool cleaner</from>
+		<to>100</to>
+	</lookup>
+	<lookup>
+		<from>Pool equipment</from>
+		<to>101</to>
+	</lookup>
+	<lookup>
+		<from>Contact lenses</from>
+		<to>110</to>
+	</lookup>
+	<lookup>
+		<from>Cellular phones</from>
+		<to>120</to>
+	</lookup>
+	<lookup>
+		<from>Safe deposit</from>
+		<to>140</to>
+	</lookup>
+	<lookup>
+		<from>Sporting equipment</from>
+		<to>150</to>
+	</lookup>
+	<lookup>
+		<from>Satillite dishes</from>
+		<to>160</to>
+	</lookup>
+	<lookup>
+		<from>Camping Equipment</from>
+		<to>170</to>
+	</lookup>
+	<lookup>
+		<from>Pedal cycles</from>
+		<to>200</to>
+	</lookup>
+	<lookup>
+		<from>Wheel chairs</from>
+		<to>210</to>
+	</lookup>
+	<lookup>
+		<from>Groceries</from>
+		<to>220</to>
+	</lookup>
+	<lookup>
+		<from>Locks and keys</from>
+		<to>230</to>
+	</lookup>
+	<lookup>
+		<from>TVs / Computer Screens</from>
+		<to>240</to>
+	</lookup>
+	<lookup>
+		<from>VCRs</from>
+		<to>250</to>
+	</lookup>
+	<lookup>
+		<from>Decoders</from>
+		<to>260</to>
+	</lookup>
+	<lookup>
+		<from>Video Cameras</from>
+		<to>270</to>
+	</lookup>
+	<lookup>
+		<from>Sound Equipment (Portable)</from>
+		<to>280</to>
+	</lookup>
+	<lookup>
+		<from>Items in bank vault - Firearm</from>
+		<to>300</to>
+	</lookup>
+	<lookup>
+		<from>Items in bank vault - Coin collection</from>
+		<to>310</to>
+	</lookup>
+	<lookup>
+		<from>Items in bank vault - Jewellery</from>
+		<to>320</to>
+	</lookup>
+	<lookup>
+		<from>Items in bank vault - Other</from>
+		<to>330</to>
+	</lookup>
+	<lookup>
+		<from>Laptops</from>
+		<to>340</to>
+	</lookup>
+	<lookup>
+		<from>Personal Computers</from>
+		<to>350</to>
+	</lookup>
+	<lookup>
+		<from>Household goods in transit</from>
+		<to>360</to>
+	</lookup>
+	<lookup>
+		<from>CDs and Cassettes</from>
+		<to>365</to>
+	</lookup>
+	<lookup>
+		<from>Hearing Aids</from>
+		<to>370</to>
+	</lookup>
+	<lookup>
+		<from>Sunglasses</from>
+		<to>375</to>
+	</lookup>
+	<lookup>
+		<from>Portable TV Sets</from>
+		<to>380</to>
+	</lookup>
+	<lookup>
+		<from>IPOD/IPAD</from>
+		<to>390</to>
+	</lookup>
+	<lookup>
+		<from>GPS (Global Positioning System)</from>
+		<to>400</to>
+	</lookup>
+	<lookup>
+		<from>Motor Cycle Apparel</from>
+		<to>410</to>
+	</lookup>
+	<lookup>
+		<from>Tablets/Portable hand held devices</from>
+		<to>420</to>
+	</lookup>
+	<lookup>
+		<from>Model airplane/drone</from>
+		<to>430</to>
+	</lookup>
+	<lookup>
+		<from>Other</from>
+		<to>999999</to>
+	</lookup>
+</mapping>
+	</mappings>

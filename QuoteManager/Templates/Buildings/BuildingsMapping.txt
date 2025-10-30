@@ -1,0 +1,34 @@
+﻿building.data.id -> BuildingId
+building.data.description -> Description
+building.data.cover.type -> CoverType
+building.data.sum.insured -> SumInsured
+building.data.voluntary.excess -> VoluntaryExcess
+building.data.line-1 -> Line1
+building.data.area -> Area
+building.data.suburb -> Suburb
+building.data.area.type -> AreaType
+building.data.is.hostel -> IsHostel
+building.data.geysercover -> Geysercover
+building.data.geyser-count -> GeyserCount
+building.data.mine.area -> MineArea
+building.data.age -> Age
+building.data.construction -> Construction
+building.data.roof.construction -> RoofConstruction
+building.data.thatch-coverage-percentage -> ThatchedArea
+building.data.unocc.per.year -> UnoccPerYear
+
+bgc.geyser-heating-location -> GeyserLocation
+bgc.geyser-heating-source -> GeyserHeatSource
+bgc.geyser-loss-item -> Amount 
+
+claims.buildings.owned.date.claim.buildings.owned -> DateOfClaim
+claims.buildings.owned.insurer.name.buildings.owned -> InsurerName
+claims.buildings.owned.claim.type.buildings.owned -> ClaimType
+claims.buildings.owned.claim.amount.buildings.owned -> Amount
+
+claims.current.risk.date.claim.current.risk -> DateOfClaim
+claims.current.risk.insurer.name.current.risk -> InsurerName
+claims.current.risk.claim.type.current.risk -> ClaimType
+claims.current.risk.claim.amount.current.risk -> Amount
+
+

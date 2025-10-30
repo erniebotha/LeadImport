@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+	<mapping>
+		<property>quotation-basis</property>
+		<lookup>
+			<from>Market</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Trade</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Retail</from>
+			<to>3</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>bool</property>
+		<lookup>
+			
+			<from>yes</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>no</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>Area-Description</property>
+		<lookup>
+			<from>Residential Suburb</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Enclosed access controlled area</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Residential area (not enclosed)</from>
+			<to>11</to>
+		</lookup>
+		<lookup>
+			<from>Business Park/Centre/Business Hub/Hotel/Hospital</from>
+			<to>12</to>
+		</lookup>
+		<lookup>
+			<from>Military Base</from>
+			<to>13</to>
+		</lookup>
+		<lookup>
+			<from>Mining Facility</from>
+			<to>14</to>
+		</lookup>
+		<lookup>
+			<from>Industrial Area</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Housing Estate</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Caravan Park</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Smallholding/Plot/Farm</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Isolated Area or New Suburb/Development</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Adjoining Township/Area with Squatter Element</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Security Village</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Retirement Complex</from>
+			<to>9</to>
+		</lookup>
+	</mapping>
+	<mapping>
+			<property>use-type-id</property>
+			<lookup>
+				<from>01. Strictly Private</from>
+				<to>0</to>
+			</lookup>
+			<lookup>
+				<from>02. Private / Social</from>
+				<to>10</to>
+			</lookup>
+			<lookup>
+				<from>03. Private / Social - Occasional Business</from>
+				<to>20</to>
+			</lookup>
+			<lookup>
+				<from>04. Business</from>
+				<to>100</to>
+			</lookup>
+			<lookup>
+				<from>05. Commercial</from>
+				<to>110</to>
+			</lookup>
+			<lookup>
+				<from>06. Professional</from>
+				<to>120</to>
+			</lookup>
+			<lookup>
+				<from>05. Pensioners - Retired</from>
+				<to>30</to>
+			</lookup>
+			<lookup>
+				<from>07. Taxi</from>
+				<to>40</to>
+			</lookup>
+			<lookup>
+				<from>08. Farming</from>
+				<to>50</to>
+			</lookup>
+		</mapping>
+
+	<mapping>
+		<property>cover-type</property>
+		<lookup>
+			<from>Comprehensive</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Third Party</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Third Party Fire and Theft</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Comprehensive - Theft Excluded</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Third Party and Fire only</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Fire and Theft only</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Total Loss (AIG only)</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Total Loss and Third Party (AIG only)</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Third Party Theft and Total Loss (IPL only)</from>
+			<to>8</to>
+		</lookup>
+	</mapping>
+
+		<mapping>
+			<property>overnight-parking-cd</property>
+			<lookup>
+				<from>01. Garage</from>
+				<to>1</to>
+			</lookup>
+			<lookup>
+				<from>08. Roaming</from>
+				<to>10</to>
+			</lookup>
+			<lookup>
+				<from>09. In Security Village</from>
+				<to>11</to>
+			</lookup>
+			<lookup>
+				<from>10. At Gautrain Station</from>
+				<to>12</to>
+			</lookup>
+			<lookup>
+				<from>02. In Yard</from>
+				<to>2</to>
+			</lookup>
+			<lookup>
+				<from>03. In Yard - No Locked Gates</from>
+				<to>3</to>
+			</lookup>
+			<lookup>
+				<from>03. On Pavement - In Street</from>
+				<to>4</to>
+			</lookup>
+			<lookup>
+				<from>04. Open Parking Lot</from>
+				<to>5</to>
+			</lookup>
+			<lookup>
+				<from>05. In Basement</from>
+				<to>6</to>
+			</lookup>
+			<lookup>
+				<from>07. In Basement (No Electronic Access)</from>
+				<to>7</to>
+			</lookup>
+			<lookup>
+				<from>06. In Security Complex</from>
+				<to>8</to>
+			</lookup>
+			<lookup>
+				<from>07. Car Port</from>
+				<to>9</to>
+			</lookup>
+		</mapping>
+	<mapping>
+		<property>type-id</property>
+		<lookup>
+			<from>Theft</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Bakkie Liner</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Windshield ( Bubbles )</from>
+			<to>100</to>
+		</lookup>
+		<lookup>
+			<from>Car Radio</from>
+			<to>101</to>
+		</lookup>
+		<lookup>
+			<from>Conversion Cost</from>
+			<to>102</to>
+		</lookup>
+		<lookup>
+			<from>Value of Fitted Extras</from>
+			<to>103</to>
+		</lookup>
+		<lookup>
+			<from>Sound Equipment Value</from>
+			<to>104</to>
+		</lookup>
+		<lookup>
+			<from>Signage</from>
+			<to>105</to>
+		</lookup>
+		<lookup>
+			<from>Fog Lights</from>
+			<to>106</to>
+		</lookup>
+		<lookup>
+			<from>Beadings</from>
+			<to>11</to>
+		</lookup>
+		<lookup>
+			<from>Boat Petrol Tank</from>
+			<to>12</to>
+		</lookup>
+		<lookup>
+			<from>Booster</from>
+			<to>13</to>
+		</lookup>
+		<lookup>
+			<from>Boot Spoiler</from>
+			<to>14</to>
+		</lookup>
+		<lookup>
+			<from>Bull Bar</from>
+			<to>15</to>
+		</lookup>
+		<lookup>
+			<from>Canopy</from>
+			<to>16</to>
+		</lookup>
+		<lookup>
+			<from>Car Alarm</from>
+			<to>17</to>
+		</lookup>
+		<lookup>
+			<from>Car Guard</from>
+			<to>18</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Cd Player</from>
+			<to>19</to>
+		</lookup>
+		<lookup>
+			<from>Damage</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Car Phone</from>
+			<to>20</to>
+		</lookup>
+		<lookup>
+			<from>Central Locking</from>
+			<to>21</to>
+		</lookup>
+		<lookup>
+			<from>Colour Coding</from>
+			<to>23</to>
+		</lookup>
+		<lookup>
+			<from>Construction Costs</from>
+			<to>24</to>
+		</lookup>
+		<lookup>
+			<from>Crash Helmet</from>
+			<to>27</to>
+		</lookup>
+		<lookup>
+			<from>Crockery</from>
+			<to>28</to>
+		</lookup>
+		<lookup>
+			<from>Diff Lock</from>
+			<to>29</to>
+		</lookup>
+		<lookup>
+			<from>Water Damage</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Drive Tonic</from>
+			<to>30</to>
+		</lookup>
+		<lookup>
+			<from>Elect Adjust Seats</from>
+			<to>31</to>
+		</lookup>
+		<lookup>
+			<from>Electric Windows</from>
+			<to>32</to>
+		</lookup>
+		<lookup>
+			<from>Erection Costs</from>
+			<to>33</to>
+		</lookup>
+		<lookup>
+			<from>Executive Option</from>
+			<to>34</to>
+		</lookup>
+		<lookup>
+			<from>Gas Bottle</from>
+			<to>35</to>
+		</lookup>
+		<lookup>
+			<from>Gearlock</from>
+			<to>36</to>
+		</lookup>
+		<lookup>
+			<from>Graphic Equalizer</from>
+			<to>37</to>
+		</lookup>
+		<lookup>
+			<from>Guarantee</from>
+			<to>38</to>
+		</lookup>
+		<lookup>
+			<from>Headlamp Shield</from>
+			<to>39</to>
+		</lookup>
+		<lookup>
+			<from>Lost</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Heat Blinds</from>
+			<to>40</to>
+		</lookup>
+		<lookup>
+			<from>Hub Caps</from>
+			<to>41</to>
+		</lookup>
+		<lookup>
+			<from>Immobilizer</from>
+			<to>42</to>
+		</lookup>
+		<lookup>
+			<from>Installation Costs</from>
+			<to>43</to>
+		</lookup>
+		<lookup>
+			<from>Jack</from>
+			<to>45</to>
+		</lookup>
+		<lookup>
+			<from>Ldv Rubber Mat</from>
+			<to>46</to>
+		</lookup>
+		<lookup>
+			<from>Leisure Option</from>
+			<to>47</to>
+		</lookup>
+		<lookup>
+			<from>Leather Seats</from>
+			<to>48</to>
+		</lookup>
+		<lookup>
+			<from>Malicious Damage</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Lx Body Kit</from>
+			<to>50</to>
+		</lookup>
+		<lookup>
+			<from>Mag Wheels</from>
+			<to>51</to>
+		</lookup>
+		<lookup>
+			<from>Metallic Paint</from>
+			<to>52</to>
+		</lookup>
+		<lookup>
+			<from>Motorboat Engine</from>
+			<to>53</to>
+		</lookup>
+		<lookup>
+			<from>Mud Guards</from>
+			<to>54</to>
+		</lookup>
+		<lookup>
+			<from>Multi Function Steering Wheel</from>
+			<to>55</to>
+		</lookup>
+		<lookup>
+			<from>Number Plates</from>
+			<to>56</to>
+		</lookup>
+		<lookup>
+			<from>Onboard Computer</from>
+			<to>57</to>
+		</lookup>
+		<lookup>
+			<from>On The Road Costs</from>
+			<to>58</to>
+		</lookup>
+		<lookup>
+			<from>Other</from>
+			<to>59</to>
+		</lookup>
+		<lookup>
+			<from>Air Conditioner</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Paint Protector</from>
+			<to>60</to>
+		</lookup>
+		<lookup>
+			<from>Power Steering</from>
+			<to>61</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Alpine</from>
+			<to>62</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Autodek</from>
+			<to>63</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Becker</from>
+			<to>64</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / National</from>
+			<to>65</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Phillips</from>
+			<to>66</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Pioneer</from>
+			<to>67</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Sanyo</from>
+			<to>68</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Sony</from>
+			<to>69</to>
+		</lookup>
+		<lookup>
+			<from>Assembly Costs</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Sound System / Tape Player</from>
+			<to>70</to>
+		</lookup>
+		<lookup>
+			<from>Rhino Lining</from>
+			<to>71</to>
+		</lookup>
+		<lookup>
+			<from>Roof Rack</from>
+			<to>72</to>
+		</lookup>
+		<lookup>
+			<from>Rubberise</from>
+			<to>73</to>
+		</lookup>
+		<lookup>
+			<from>Rustproof</from>
+			<to>74</to>
+		</lookup>
+		<lookup>
+			<from>Rollbar</from>
+			<to>75</to>
+		</lookup>
+		<lookup>
+			<from>Sail</from>
+			<to>76</to>
+		</lookup>
+		<lookup>
+			<from>Scotch Guard</from>
+			<to>77</to>
+		</lookup>
+		<lookup>
+			<from>Seat Covering</from>
+			<to>78</to>
+		</lookup>
+		<lookup>
+			<from>Seat Covers</from>
+			<to>79</to>
+		</lookup>
+		<lookup>
+			<from>Auto Armour 3 In 1</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Self Level R Suspens</from>
+			<to>80</to>
+		</lookup>
+		<lookup>
+			<from>Service And Delivery</from>
+			<to>81</to>
+		</lookup>
+		<lookup>
+			<from>Service History</from>
+			<to>82</to>
+		</lookup>
+		<lookup>
+			<from>Spare Wheel</from>
+			<to>83</to>
+		</lookup>
+		<lookup>
+			<from>Speakers</from>
+			<to>84</to>
+		</lookup>
+		<lookup>
+			<from>Speed Control</from>
+			<to>85</to>
+		</lookup>
+		<lookup>
+			<from>Sportlights</from>
+			<to>86</to>
+		</lookup>
+		<lookup>
+			<from>Sports Seats</from>
+			<to>87</to>
+		</lookup>
+		<lookup>
+			<from>Sunroof</from>
+			<to>88</to>
+		</lookup>
+		<lookup>
+			<from>Tent Bikini</from>
+			<to>89</to>
+		</lookup>
+		<lookup>
+			<from>Auto Armour 4 In 1</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>Tent Full</from>
+			<to>90</to>
+		</lookup>
+		<lookup>
+			<from>Through Loading</from>
+			<to>91</to>
+		</lookup>
+		<lookup>
+			<from>Tinted Glass</from>
+			<to>92</to>
+		</lookup>
+		<lookup>
+			<from>Tools and spareparts</from>
+			<to>94</to>
+		</lookup>
+		<lookup>
+			<from>Towbar</from>
+			<to>95</to>
+		</lookup>
+		<lookup>
+			<from>Turbo Protector</from>
+			<to>96</to>
+		</lookup>
+		<lookup>
+			<from>Wheel Arch Mould</from>
+			<to>97</to>
+		</lookup>
+		<lookup>
+			<from>Winch</from>
+			<to>98</to>
+		</lookup>
+		<lookup>
+			<from>Window Identifier</from>
+			<to>99</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>kp-accessory-type</property>
+		<lookup>
+			<from>Exhaust</from>
+			<to>111</to>
+		</lookup>
+		<lookup>
+			<from>BST Carbon rims</from>
+			<to>112</to>
+		</lookup>
+		<lookup>
+			<from>Marchesini rims</from>
+			<to>113</to>
+		</lookup>
+		<lookup>
+			<from>Steering damper</from>
+			<to>114</to>
+		</lookup>
+		<lookup>
+			<from>Race rear shock</from>
+			<to>115</to>
+		</lookup>
+		<lookup>
+			<from>Race front forks</from>
+			<to>116</to>
+		</lookup>
+		<lookup>
+			<from>Quick shifter-gear shifter</from>
+			<to>117</to>
+		</lookup>
+		<lookup>
+			<from>Rear Sets(Race Foot pegs)</from>
+			<to>118</to>
+		</lookup>
+		<lookup>
+			<from>Power Commander</from>
+			<to>119</to>
+		</lookup>
+		<lookup>
+			<from>Race bubble screen</from>
+			<to>120</to>
+		</lookup>
+		<lookup>
+			<from>Carbon Fibre panels</from>
+			<to>121</to>
+		</lookup>
+		<lookup>
+			<from>Race levers</from>
+			<to>122</to>
+		</lookup>
+		<lookup>
+			<from>Brembo brake calipers  disc</from>
+			<to>123</to>
+		</lookup>
+		<lookup>
+			<from>Billet front forks</from>
+			<to>124</to>
+		</lookup>
+		<lookup>
+			<from>Panniers</from>
+			<to>125</to>
+		</lookup>
+		<lookup>
+			<from>Top box</from>
+			<to>126</to>
+		</lookup>
+		<lookup>
+			<from>Crash bars(protectors)</from>
+			<to>127</to>
+		</lookup>
+		<lookup>
+			<from>Crash bobbins</from>
+			<to>128</to>
+		</lookup>
+		<lookup>
+			<from>Road tyres</from>
+			<to>129</to>
+		</lookup>
+		<lookup>
+			<from>Race / Track slicks</from>
+			<to>130</to>
+		</lookup>
+		<lookup>
+			<from>Off road tyres</from>
+			<to>131</to>
+		</lookup>
+		<lookup>
+			<from>Other</from>
+			<to>132</to>
+		</lookup>
+		<lookup>
+			<from>Helmet</from>
+			<to>133</to>
+		</lookup>
+	</mapping>
+
+</mappings>

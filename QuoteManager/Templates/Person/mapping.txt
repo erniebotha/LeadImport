@@ -1,0 +1,69 @@
+﻿sh.id -> UniqueExternalRef
+sh.broker-fee-consent -> BrokerFeeConsent
+sh.sh-sequestrated-liquidated -> SequestratedLiquidated
+sh.under_admin -> UnderAdmin
+
+person.id -> PersonId
+person.name -> Name
+person.full-names -> FullNames
+person.surname -> Surname
+person.initials -> Initials
+person.identification-no -> IdentificationNo
+person.title-cd -> Title
+person.gender-cd -> Gender
+person.birth-date -> BirthDate
+person.marital-status-cd -> MaritalStatusCd
+person.id-type -> IdType
+person.passport-number -> PassportNumber
+
+address.id -> AddressId
+address.ver -> AddressVersion
+address.type-cd -> AddressType
+address.line-1 -> AddressLine1
+address.code -> PostalCode
+address.suburb -> Suburb
+address.residential-area-type -> ResidentialAreaType
+address.years-at-address -> YearsAtAddress
+address.months-at-address -> MonthsAtAddress
+address.number -> PhoneNumber
+address.is-cellphone -> IsCellphone
+address.is-telephone -> IsTelephone
+address.is-fax -> IsFax
+address.is-residential -> IsResidential
+address.is-business -> IsBusiness
+
+short-term.ver -> ShortTermVersion
+short-term.license-endorsed -> LicenseEndorsed
+short-term.driver-restriction -> DriverRestriction
+short-term.held-insurance-last-39-days -> HeldInsuranceLast39Days
+short-term.claim-count-last-3-years-2 -> ClaimCount
+short-term.insurer-cancelled -> InsurerCancelled
+short-term.period-comp-car-insurance -> PeriodMotorCompIns
+short-term.proof-of-ncb -> ProofOfNCB
+short-term.add-personal-liability -> AddPersonalLiability
+short-term.has-consent -> HasConsent
+short-term.itc-check-done -> ITCCheckDone
+short-term.policy-excess -> PolicyExcess
+short-term.current-premium -> CurrentPremium
+short-term.held-nonmotor-insurance-last-39-days -> HeldNonMotorInsuranceLast39Days
+short-term.sau-policy-issued -> SAUPolicyIssued
+
+short-term.license-detail.ver -> LicenseDetailVersion
+short-term.license-detail.seq -> LicenseDetailSeq
+short-term.license-detail.license-date -> DriversLicenseDate
+short-term.license-detail.license-category -> DriversLicenseCategory
+short-term.license-detail.license-type -> DriversLicenseType
+short-term.license-detail.vehicle-restriction -> VehicleRestrictions
+
+income-details.id -> IncomeDetailsId
+income-details.occupation-category -> OccupationCategory
+income-details.occupation -> Occupation
+income-details.employment-status -> EmploymentStatus
+income-details.source-of-funds-income -> SourceOfFundsIncome
+income-details.occupation-category-code -> OccupationCategoryCode
+
+insurance-details -> InsuranceDetails
+
+parameter-request.ver -> ParameterRequestVersion
+parameter-request.seq -> ParameterRequestSeq
+parameter-request.insurer-parms -> InsurerParms

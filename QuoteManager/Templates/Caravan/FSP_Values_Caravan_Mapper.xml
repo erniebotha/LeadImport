@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+<mapping>
+	<lookup>
+		<property>bool</property>
+		<from>yes</from>
+		<to>1</to>
+	</lookup>
+	<lookup>
+		<from>no</from>
+		<to>0</to>
+	</lookup>
+</mapping>
+	</mappings>

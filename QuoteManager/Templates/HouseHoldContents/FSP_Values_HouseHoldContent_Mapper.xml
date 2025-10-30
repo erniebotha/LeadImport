@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+	<mapping>
+		<property>bool</property>
+		<lookup>
+			<from>yes</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>no</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>alarm.type.id</property>
+		<lookup>
+			<from>0. No Alarm Installed</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>1. Saidsa Approved Alarm</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>2. Non-Saidsa Approved Alarm</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>unocc.period</property>
+		<lookup>
+			<from>Unoccupied less than 60 days/year</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 61-90 days/year</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 91-120 days / year</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 121 - 150 days /year</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 151 - 180 days /year</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 181 - 210 days /year</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 211 - 240 days / year</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 241 - 270 days /year</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 271 - 300 days / year</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 301 - 330 days / year</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 331 - 360 days / year</from>
+			<to>11</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>size.of.lapa</property>
+		<lookup>
+			<from>Less than 10% of size of house</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>More than 10% of size of house</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Exceeds 1/3 of house</from>
+			<to>3</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>alarm.response.unit</property>
+		<lookup>
+			<from>1. Day Time Only</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>2. Night Time Only</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>3. Response 24 Hours</from>
+			<to>3</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>perimeter.wall</property>
+		<lookup>
+			<from>No Fence</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Wire Fence (Any height)</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Brick Wall less than 180cm</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Brick Wall more than 180cm</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Precast Wall less than 180cm</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Precast Wall more than 180cm</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Palisade less than 180cm</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Palisade more than 180cm</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Wood fence less than 180cm</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>Wood fence more than 180cm</from>
+			<to>10</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>distance.house</property>
+		<lookup>
+			<from>Attached to house</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Within 3m of house (ABSA)</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Within 4m of house (Santam)</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>More than 4m from house (Santam)</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>More than 10m from house (King Price)</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>More than 3m from house (ABSA)</from>
+			<to>7</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<lookup>
+			<property>distance.house</property>
+			<from>Attached to house</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Within 3m of house (ABSA)</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Within 4m of house (Santam)</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>More than 4m from house (Santam)</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>More than 10m from house (King Price)</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>More than 3m from house (ABSA)</from>
+			<to>7</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>outbuilding.roof.construction</property>
+		<lookup>
+			<from>Standard Tile</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Slate</from>
+			<to>100</to>
+		</lookup>
+		<lookup>
+			<from>Corrugated Iron</from>
+			<to>200</to>
+		</lookup>
+		<lookup>
+			<from>Other Steel Construction</from>
+			<to>300</to>
+		</lookup>
+		<lookup>
+			<from>Thatch</from>
+			<to>400</to>
+		</lookup>
+		<lookup>
+			<from>Asbestos</from>
+			<to>500</to>
+		</lookup>
+		<lookup>
+			<from>Timber</from>
+			<to>600</to>
+		</lookup>
+		<lookup>
+			<from>Shingles</from>
+			<to>700</to>
+		</lookup>
+		<lookup>
+			<from>Concrete</from>
+			<to>800</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>conduct.industry.profession</property>
+		<lookup>
+			<from>None</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Needlework</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Baking</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Pottery</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Beauty salon / Hair dressing salon</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Health care</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Beauty care</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Cleaning</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Tupperware</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>Photo Frames</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Scrapbooking</from>
+			<to>11</to>
+		</lookup>
+		<lookup>
+			<from>Educational Toys</from>
+			<to>12</to>
+		</lookup>
+		<lookup>
+			<from>Administrative Profession</from>
+			<to>13</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>area.type</property>
+		<lookup>		
+			<from>01. Residential Suburb</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>02. Industrial Area</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>03. Housing Estate</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>04. Caravan Park</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>05. Smallholding/Plot/Farm</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>06. Isolated Area or New Suburb/Development</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>07. Adjoining Township/Area with Squatter Element</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>08. Security Village</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>09. Retirement Complex</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>10. Enclosed access controlled area</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>11. Residential area (not enclosed)</from>
+			<to>11</to>
+		</lookup>
+		<lookup>
+			<from>12. Business Park/Centre/Business Hub/Hotel/Hospital</from>
+			<to>12</to>
+		</lookup>
+		<lookup>
+			<from>13. Military Base</from>
+			<to>13</to>
+		</lookup>
+		<lookup>
+			<from>14. Mining Facility</from>
+			<to>14</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>open.area.types</property>
+		<lookup>
+			<from>Highway</from>
+			<to>HI</to>
+		</lookup>
+		<lookup>
+			<from>Open Field</from>
+			<to>OF</to>
+		</lookup>
+		<lookup>
+			<from>Open plot</from>
+			<to>OP</to>
+		</lookup>
+		<lookup>
+			<from>Park</from>
+			<to>PA</to>
+		</lookup>
+		<lookup>
+			<from>Place of worship</from>
+			<to>PL</to>
+		</lookup>
+		<lookup>
+			<from>River/stream</from>
+			<to>RI</to>
+		</lookup>
+		<lookup>
+			<from>School</from>
+			<to>SC</to>
+		</lookup>
+		<lookup>
+			<from>Shopping Centre</from>
+			<to>SH</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>outbuilding.construction</property>
+		<lookup>
+			<from>Brick</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Wood</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Pre-cast</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Asbestos</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Corrugated Iron</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Stone</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Concrete</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Other</from>
+			<to>7</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>occupation.property</property>
+		<lookup>
+			<from>Let</from>
+			<to>L</to>
+		</lookup>
+		<lookup>
+			<from>Owner</from>
+			<to>O</to>
+		</lookup>
+		<lookup>
+			<from>Renting</from>
+			<to>R</to>
+		</lookup>
+		<lookup>
+			<from>Sublet</from>
+			<to>S</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>thatched.roof</property>
+		<lookup>
+			<from>Standard Tile</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Slate</from>
+			<to>100</to>
+		</lookup>
+		<lookup>
+			<from>Corrugated Iron</from>
+			<to>200</to>
+		</lookup>
+		<lookup>
+			<from>Other Steel Construction</from>
+			<to>300</to>
+		</lookup>
+		<lookup>
+			<from>Thatch</from>
+			<to>400</to>
+		</lookup>
+		<lookup>
+			<from>Asbestos</from>
+			<to>500</to>
+		</lookup>
+		<lookup>
+			<from>Timber</from>
+			<to>600</to>
+		</lookup>
+		<lookup>
+			<from>Shingles</from>
+			<to>700</to>
+		</lookup>
+		<lookup>
+			<from>Concrete</from>
+			<to>800</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>description</property>
+		<lookup>
+			<from>House  (Main Residence)</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Cottage  (Main Residence)</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Townhouse  (Main Residence)</from>
+			<to>20</to>
+		</lookup>
+		<lookup>
+			<from>Cluster Home  (Main Residence)</from>
+			<to>30</to>
+		</lookup>
+		<lookup>
+			<from>Park Home  (Main Residence)</from>
+			<to>40</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Above Ground  (Main Residence)</from>
+			<to>50</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Below Ground  (Main Residence)</from>
+			<to>60</to>
+		</lookup>
+		<lookup>
+			<from>House (Holiday Residence)</from>
+			<to>1000</to>
+		</lookup>
+		<lookup>
+			<from>Cottage (Holiday Residence)</from>
+			<to>1010</to>
+		</lookup>
+		<lookup>
+			<from>Townhouse (Holiday Residence)</from>
+			<to>1020</to>
+		</lookup>
+		<lookup>
+			<from>Cluster Home (Holiday Residence)</from>
+			<to>1030</to>
+		</lookup>
+		<lookup>
+			<from>Park Home (Holiday Residence)</from>
+			<to>1040</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Above Ground (Holiday Residence)</from>
+			<to>1050</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Below Ground (Holiday Residence)</from>
+			<to>1060</to>
+		</lookup>
+		<lookup>
+			<from>House (Other Residence)</from>
+			<to>2000</to>
+		</lookup>
+		<lookup>
+			<from>Cottage (Other Residence)</from>
+			<to>2010</to>
+		</lookup>
+		<lookup>
+			<from>Townhouse (Other Residence)</from>
+			<to>2020</to>
+		</lookup>
+		<lookup>
+			<from>Cluster Home (Other Residence)</from>
+			<to>2030</to>
+		</lookup>
+		<lookup>
+			<from>Park Home (Other Residence)</from>
+			<to>2040</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Above Ground (Other Residence)</from>
+			<to>2050</to>
+		</lookup>
+		<lookup>
+			<from>Flat - Below Ground  (Other Residence)</from>
+			<to>2060</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>BTS-description</property>
+		<lookup>
+			<from>Household Contents</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Accidental Damage</from>
+			<to>28</to>
+		</lookup>
+		<lookup>
+			<from>Accounts Receivable</from>
+			<to>29</to>
+		</lookup>
+		<lookup>
+			<from>Buildings Combined</from>
+			<to>30</to>
+		</lookup>
+		<lookup>
+			<from>Business All Risks</from>
+			<to>31</to>
+		</lookup>
+		<lookup>
+			<from>Business Interruption</from>
+			<to>32</to>
+		</lookup>
+		<lookup>
+			<from>Electronic Equipment</from>
+			<to>33</to>
+		</lookup>
+		<lookup>
+			<from>Employers Liability</from>
+			<to>34</to>
+		</lookup>
+		<lookup>
+			<from>Fidelity Guarantee</from>
+			<to>35</to>
+		</lookup>
+		<lookup>
+			<from>Fire</from>
+			<to>36</to>
+		</lookup>
+		<lookup>
+			<from>Glass</from>
+			<to>37</to>
+		</lookup>
+		<lookup>
+			<from>Goods In Transit</from>
+			<to>38</to>
+		</lookup>
+		<lookup>
+			<from>Group Personal Accident</from>
+			<to>39</to>
+		</lookup>
+		<lookup>
+			<from>Machinery Breakdown</from>
+			<to>40</to>
+		</lookup>
+		<lookup>
+			<from>Money</from>
+			<to>41</to>
+		</lookup>
+		<lookup>
+			<from>Motor Dealers External Risk</from>
+			<to>42</to>
+		</lookup>
+		<lookup>
+			<from>Motor Dealers Internal Risk</from>
+			<to>43</to>
+		</lookup>
+		<lookup>
+			<from>Motor Fleet</from>
+			<to>44</to>
+		</lookup>
+		<lookup>
+			<from>Office Contents</from>
+			<to>45</to>
+		</lookup>
+		<lookup>
+			<from>Public Liability</from>
+			<to>46</to>
+		</lookup>
+		<lookup>
+			<from>Theft</from>
+			<to>47</to>
+		</lookup>
+		<lookup>
+			<from>Buildings (Home Owners)</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Personal All Risks</from>
+			<to>8</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>standard.walls</property>
+		<lookup>
+			<from>No Fence</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Wood fence more than 180cm</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Wire Fence (Any height)</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Brick Wall less than 180cm</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Brick Wall more than 180cm</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Precast Wall less than 180cm</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Precast Wall more than 180cm</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Palisade less than 180cm</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Palisade more than 180cm</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Wood fence less than 180cm</from>
+			<to>9</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>restricted.cover</property>
+		<lookup>
+			<from>Comprehensive</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Third Party</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Third Party Fire and Theft</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Comprehensive - Theft Excluded</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Third Party and Fire only</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Fire and Theft only</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Total Loss (AIG only)</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Total Loss and Third Party (AIG only)</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Third Party Theft and Total Loss (IPL only)</from>
+			<to>8</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>flat.excess.value</property>
+		<lookup>
+			<from>NONE</from>
+			<to>-1</to>
+		</lookup>
+		<lookup>
+			<from>R1,000</from>
+			<to>1000</to>
+		</lookup>
+		<lookup>
+			<from>R2,000</from>
+			<to>2000</to>
+		</lookup>
+		<lookup>
+			<from>R3000</from>
+			<to>3000</to>
+		</lookup>
+		<lookup>
+			<from>R4,000</from>
+			<to>4000</to>
+		</lookup>
+		<lookup>
+			<from>R500</from>
+			<to>500</to>
+		</lookup>
+		<lookup>
+			<from>R5,000</from>
+			<to>5000</to>
+		</lookup>
+	</mapping>
+
+</mappings>

@@ -1,0 +1,6 @@
+﻿all.risks.item.id -> AllrisksId
+all.risks.item.sum.insured -> SumInsured
+all.risks.item.description -> Description
+all.risks.item.cover.type.id -> CoverType
+
+				

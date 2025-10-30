@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<building.data
+	           BTS-is-new='1'
+	           id=""
+               ver="1"
+               item-refno="1"
+               description=""
+               cover.type="0"
+               area=""
+               line-1=""
+               construction="0"
+               subsidence.landslip=""
+               roof.construction=""
+               sum.insured=""
+               voluntary.excess=""
+               area.type=""
+               outbuilding.construction=""
+               suburb=""
+               unocc.per.year=""
+               has.outbuildings=""
+               outbuilding.roof.construction=""
+               recent.loss.count=""
+               property-owned-claim=""
+               geysercover=""
+               geyser-count=""
+               perimeter-wall=""
+               is.hostel=""
+               floor-types=""
+               thatch-coverage-percentage=""
+               mine.area=""
+               age=""
+               isOpenArea=""
+               capital-additions-sum-insured=""
+               BTS-category-id="38"
+               BTS-status="Quoted"
+               BTS-start-date=""
+               BTS-end-date=""
+               BTS-description="">
+	<bgc ver="1"
+         seq="1"
+         geyser-heating-location="0"
+         geyser-heating-source="0"
+         geyser-loss-item="0"/>
+	
+	<claims.buildings.owned date.claim.buildings.owned="0" 
+							insurer.name.buildings.owned="0" 
+							claim.type.buildings.owned="" 
+							claim.amount.buildings.owned="0"/>
+
+	<claims.current.risk date.claim.current.risk="0" 
+						 insurer.name.current.risk="0" 
+						 claim.type.current.risk="0" 
+						 claim.amount.current.risk="0"/>
+
+</building.data>

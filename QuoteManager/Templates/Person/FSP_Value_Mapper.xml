@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+	<mapping>
+		<property>title-cd</property>
+		<lookup>
+			<from>Mr</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Mrs</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Miss</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Dr</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Prof</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Ds</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Ms</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Unknown</from>
+			<to>8</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>id-type</property>
+		<lookup>
+			<from>ID</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>PASSPORT</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>gender-cd</property>
+		<lookup>
+			<from>Male</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Female</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>marital-status-cd</property>
+		<lookup>
+			<from>Single</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Married</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Divorced</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Separated</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Widowed</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Cohabiting/partnered</from>
+			<to>6</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>occupation-category</property>
+		<lookup>
+			<from>Standard</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>Estate Agent / Representative</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Insurance Assessor</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Make Service Calls</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Underground / mine worker</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Professional</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Housewife</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Pensioner</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Civil Servant</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Other</from>
+			<to>9</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>residential-area-type</property>
+			<lookup>
+				<from>01. Residential Suburb</from>
+				<to>1</to>
+			</lookup>
+			<lookup>
+				<from>10. Enclosed access controlled area</from>
+				<to>10</to>
+			</lookup>
+			<lookup>
+				<from>11. Residential area (not enclosed)</from>
+				<to>11</to>
+			</lookup>
+			<lookup>
+				<from>12. Business Park/Centre/Business Hub/Hotel/Hospital</from>
+				<to>12</to>
+			</lookup>
+			<lookup>
+				<from>13. Military Base</from>
+				<to>13</to>
+			</lookup>
+			<lookup>
+				<from>14. Mining Facility</from>
+				<to>14</to>
+			</lookup>
+			<lookup>
+				<from>02. Industrial Area</from>
+				<to>2</to>
+			</lookup>
+			<lookup>
+				<from>03. Housing Estate</from>
+				<to>3</to>
+			</lookup>
+			<lookup>
+				<from>04. Caravan Park</from>
+				<to>4</to>
+			</lookup>
+			<lookup>
+				<from>05. Smallholding/Plot/Farm</from>
+				<to>5</to>
+			</lookup>
+			<lookup>
+				<from>06. Isolated Area or New Suburb/Development</from>
+				<to>6</to>
+			</lookup>
+			<lookup>
+				<from>07. Adjoining Township/Area with Squatter Element</from>
+				<to>7</to>
+			</lookup>
+			<lookup>
+				<from>08. Security Village</from>
+				<to>8</to>
+			</lookup>
+			<lookup>
+				<from>09. Retirement Complex</from>
+				<to>9</to>
+			</lookup>
+		</mapping>
+	
+	<mapping>
+		<property>license-category</property>
+		<lookup>
+			<from>MotorVehicle</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>MotorCycle</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>license-type</property>
+	<lookup>
+		<from>EC</from>
+		<to>8</to>
+	</lookup>
+	<lookup>
+		<from>IDP</from>
+		<to>10</to>
+	</lookup>
+	<lookup>
+		<from>EB</from>
+		<to>7</to>
+	</lookup>
+	<lookup>
+		<from>EC1</from>
+		<to>9</to>
+	</lookup>
+	<lookup>
+		<from>C</from>
+		<to>6</to>
+	</lookup>
+	<lookup>
+		<from>C1</from>
+		<to>5</to>
+	</lookup>
+	<lookup>
+		<from>B</from>
+		<to>4</to>
+	</lookup>
+	<lookup>
+		<from>A1</from>
+		<to>3</to>
+	</lookup>
+	<lookup>
+		<from>A</from>
+		<to>2</to>
+	</lookup>
+	<lookup>
+		<from>Learners Only</from>
+		<to>1</to>
+	</lookup>
+	</mapping>
+	<mapping>
+		<property>bool</property>
+	<lookup>
+		<from>yes</from>
+		<to>1</to>
+	</lookup>
+	<lookup>
+		<from>no</from>
+		<to>0</to>
+	</lookup>
+	</mapping>
+
+	<mapping>
+		<property>vehicle-restriction</property>
+		<lookup>	
+		<from>None</from>
+		<to>1</to>
+	</lookup>
+	<lookup>
+		<from>Automatic Transmission</from>
+		<to>2</to>
+	</lookup>
+	<lookup>
+		<from>Electrically Powered</from>
+		<to>3</to>
+	</lookup>
+	<lookup>
+		<from>Physically Disabled</from>
+		<to>4</to>
+	</lookup>
+	<lookup>
+		<from>Bus 16,000KG VM Permitted</from>
+		<to>5</to>
+	</lookup>
+		</mapping>
+
+	<mapping>
+		<property>driver-restriction</property>
+	<lookup>
+		<from>None</from>
+		<to>1</to>
+	</lookup>
+	<lookup>
+		<from>Glasses</from>
+		<to>2</to>
+	</lookup>
+	<lookup>
+		<from>Artificial Limbs</from>
+		<to>3</to>
+	</lookup>
+	</mapping>
+
+	<mapping>
+		<property>period-comp-car-insurance</property>
+	<lookup>
+		<from>0 Years :Within the Last 12 Months</from>
+		<to>0</to>
+	</lookup>
+	<lookup>
+		<from>1 Year : 13 - 24 months</from>
+		<to>1</to>
+	</lookup>
+	<lookup>
+		<from>2 Years : 25 - 36 months</from>
+		<to>2</to>
+	</lookup>
+	<lookup>
+		<from>3 Years : 37 - 48 months</from>
+		<to>3</to>
+	</lookup>
+	<lookup>
+		<from>4 Years : 49 - 60 months</from>
+		<to>4</to>
+	</lookup>
+	<lookup>
+		<from>5 Years : 61 - 72 months</from>
+		<to>5</to>
+	</lookup>
+	<lookup>
+		<from>6 Years : 73 - 84 months</from>
+		<to>6</to>
+	</lookup>
+	<lookup>
+		<from>7 Years : 85 - 96 months</from>
+		<to>7</to>
+	</lookup>
+	<lookup>
+		<from>8 Years : 97 - 108 months</from>
+		<to>8</to>
+	</lookup>
+	<lookup>
+		<from>9 Years : 109 - 120 months</from>
+		<to>9</to>
+	</lookup>
+	<lookup>
+		<from>Never</from>
+		<to>9999</to>
+	</lookup>
+	</mapping>
+	
+</mappings>

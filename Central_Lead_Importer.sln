@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central_Lead_Importer", "Central_Lead_Importer\Central_Lead_Importer.csproj", "{BC44372F-EC17-4109-9D3B-A2BC49BB57EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SftpClientHelper", "SftpClientHelper\SftpClientHelper.csproj", "{C54F3FDB-CC45-4B7B-B2C5-07F74C07C430}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared_Objects", "Shared_Objects\Shared_Objects.shproj", "{48DD39BF-F469-430F-B232-BDA02C9DB71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteManager", "QuoteManager\QuoteManager.csproj", "{CA37BD9C-D2AA-4F63-88B4-2CA377972B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookupManager", "LookupManager\LookupManager.csproj", "{9F82D93C-38ED-48D3-918D-F97D58562F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager", "CSV_Xml_Converter\FileManager.csproj", "{979A7C6C-27C1-4E57-82EA-CDAA885B2DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationManager", "ValidationManager\ValidationManager.csproj", "{EC44601E-B4BE-454A-A0AA-9F457A658D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC44372F-EC17-4109-9D3B-A2BC49BB57EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC44372F-EC17-4109-9D3B-A2BC49BB57EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC44372F-EC17-4109-9D3B-A2BC49BB57EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC44372F-EC17-4109-9D3B-A2BC49BB57EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54F3FDB-CC45-4B7B-B2C5-07F74C07C430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54F3FDB-CC45-4B7B-B2C5-07F74C07C430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54F3FDB-CC45-4B7B-B2C5-07F74C07C430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54F3FDB-CC45-4B7B-B2C5-07F74C07C430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA37BD9C-D2AA-4F63-88B4-2CA377972B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA37BD9C-D2AA-4F63-88B4-2CA377972B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA37BD9C-D2AA-4F63-88B4-2CA377972B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA37BD9C-D2AA-4F63-88B4-2CA377972B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F82D93C-38ED-48D3-918D-F97D58562F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F82D93C-38ED-48D3-918D-F97D58562F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F82D93C-38ED-48D3-918D-F97D58562F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F82D93C-38ED-48D3-918D-F97D58562F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979A7C6C-27C1-4E57-82EA-CDAA885B2DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979A7C6C-27C1-4E57-82EA-CDAA885B2DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979A7C6C-27C1-4E57-82EA-CDAA885B2DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979A7C6C-27C1-4E57-82EA-CDAA885B2DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC44601E-B4BE-454A-A0AA-9F457A658D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC44601E-B4BE-454A-A0AA-9F457A658D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC44601E-B4BE-454A-A0AA-9F457A658D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC44601E-B4BE-454A-A0AA-9F457A658D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D71F5EA3-16CD-4C61-8BFB-CB3339D3B54B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared_Objects\Shared_Objects.projitems*{48dd39bf-f469-430f-b232-bda02c9db71c}*SharedItemsImports = 13
+		Shared_Objects\Shared_Objects.projitems*{979a7c6c-27c1-4e57-82ea-cdaa885b2dcf}*SharedItemsImports = 4
+		Shared_Objects\Shared_Objects.projitems*{bc44372f-ec17-4109-9d3b-a2bc49bb57ee}*SharedItemsImports = 4
+		Shared_Objects\Shared_Objects.projitems*{ca37bd9c-d2aa-4f63-88b4-2ca377972b5b}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://fsptfs01.fsp.local:8080/tfs/fspsolutions
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Central_Lead_Importer\\Central_Lead_Importer.csproj
+		SccProjectName1 = Central_Lead_Importer
+		SccLocalPath1 = Central_Lead_Importer
+		SccProjectUniqueName2 = CSV_Xml_Converter\\FileManager.csproj
+		SccProjectName2 = CSV_Xml_Converter
+		SccLocalPath2 = CSV_Xml_Converter
+		SccProjectUniqueName3 = LookupManager\\LookupManager.csproj
+		SccProjectName3 = LookupManager
+		SccLocalPath3 = LookupManager
+		SccProjectUniqueName4 = QuoteManager\\QuoteManager.csproj
+		SccProjectName4 = QuoteManager
+		SccLocalPath4 = QuoteManager
+		SccProjectUniqueName5 = SftpClientHelper\\SftpClientHelper.csproj
+		SccProjectName5 = SftpClientHelper
+		SccLocalPath5 = SftpClientHelper
+		SccProjectUniqueName6 = Shared_Objects\\Shared_Objects.projitems
+		SccProjectTopLevelParentUniqueName6 = Shared_Objects\\Shared_Objects.shproj
+		SccProjectName6 = Shared_Objects
+		SccLocalPath6 = Shared_Objects
+		SccProjectUniqueName7 = Shared_Objects\\Shared_Objects.shproj
+		SccProjectName7 = Shared_Objects
+		SccLocalPath7 = Shared_Objects
+		SccProjectUniqueName8 = ValidationManager\\ValidationManager.csproj
+		SccProjectName8 = ValidationManager
+		SccLocalPath8 = ValidationManager
+	EndGlobalSection
+EndGlobal

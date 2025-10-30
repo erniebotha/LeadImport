@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mappings>
+	<mapping>
+		<property>bool</property>
+		<lookup>
+			
+			<from>yes</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>no</from>
+			<to>0</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>cover.type</property>
+			<lookup>
+				<from>Comprehensive</from>
+				<to>0</to>
+			</lookup>
+			<lookup>
+				<from>Comprehensive - Theft Excluded</from>
+				<to>1</to>
+			</lookup>
+		</mapping>
+	<mapping>
+		<property>unocc.per.year</property>
+		<lookup>
+			<from>Unoccupied less than 60 days/year</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 61-90 days/year</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 91-120 days / year</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 121 - 150 days /year</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 151 - 180 days /year</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 181 - 210 days /year</from>
+			<to>6</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 211 - 240 days / year</from>
+			<to>7</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 241 - 270 days /year</from>
+			<to>8</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 271 - 300 days / year</from>
+			<to>9</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 301 - 330 days / year</from>
+			<to>10</to>
+		</lookup>
+		<lookup>
+			<from>Unoccupied 331 - 360 days / year</from>
+			<to>11</to>
+		</lookup>
+	</mapping>
+	<mapping>
+		<property>age</property>
+		<lookup>
+			<from>A: 0-5 years</from>
+			<to>0</to>
+		</lookup>
+		<lookup>
+			<from>B: 6-10 years</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>C: 11-25 years</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>D: 26-50 years</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>E: 51+ years</from>
+			<to>1</to>
+		</lookup>
+	</mapping>
+
+	<mapping>
+		<property>geyser-heating-location</property>
+		<lookup>
+			<from>Outside Roof</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Inside Roof</from>
+			<to>2</to>
+		</lookup>
+	</mapping>
+
+	<mapping>
+		<property>geyser-heating-source</property>
+		<lookup>
+			<from>Electric</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>Gas</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>Heat Pump</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>Induction</from>
+			<to>4</to>
+		</lookup>
+		<lookup>
+			<from>Solar Panels</from>
+			<to>5</to>
+		</lookup>
+		<lookup>
+			<from>Solar Tubes</from>
+			<to>6</to>
+		</lookup>
+
+	</mapping>
+
+	<mapping>
+		<property>geyser-loss-item</property>
+		<lookup>
+			<from>R10000</from>
+			<to>1</to>
+		</lookup>
+		<lookup>
+			<from>R20,000</from>
+			<to>2</to>
+		</lookup>
+		<lookup>
+			<from>R30,000</from>
+			<to>3</to>
+		</lookup>
+		<lookup>
+			<from>R40,000</from>
+			<to>4</to>
+		</lookup>
+	</mapping>
+	</mappings>
+
